@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: rgb(7, 201, 201);
+  margin: 0px;
+}
+
+h1::selection {
+  color: white;
+  background: rgb(7, 201, 201);
+}
